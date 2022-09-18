@@ -1,0 +1,143 @@
+header
+{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(15, 145, 237, 0.733);
+    border: 5px groove  rgba(9, 201, 182, 0.733);
+}
+div{
+    
+}
+.header_solo
+{
+    width: 100%;
+    height: 130px;
+    padding: 0 0 0 0;
+    max-width:  960px;
+    margin: 0 auto 0 auto;
+}
+.text_header
+{
+    font-family: 'Space Mono', monospace;
+    color:rgba(161, 12, 172, 0.733);
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#logo
+{
+    margin-top: 23px;
+    width: 150px;
+    height: 100px;
+    float: left;
+	margin-right: 175px;
+}
+
+#name {
+    padding:  0 0 0 0;
+    float:  left;
+}
+
+#name h1 {
+    height:  100%;
+    line-height: 60px;
+    margin-top: 25px;
+}
+
+
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 15px;
+    margin: 0 20px 0 16px;
+    font-size: 20px;
+    color: rgb(137, 0, 235);
+
+}
+
+
+body{
+    text-align: center;
+    margin-bottom: 0;
+    background: rgb(5, 208, 181);
+    font-family: 'Space Mono', monospace;;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 2px 1em 0 1em;
+}
+
+
+a
+{
+    color: rgba(250, 253, 252, 0.933);
+
+}
+nav {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+    
+}
+
+nav li {
+    float:left;
+}
+
+ul{
+    list-style: none;
+    text-align:left;
+}
+
+ol{
+    display:inline-table;
+}
+
+li{
+    margin-bottom: 4px;
+    text-align:left;
+}
+table{
+    width: 100%;
+    font-family: 'Space Mono', monospace;;
+}
+table,th,td{
+    border: 1px solid rgb(3, 103, 243);
+    border-color: black;
+    text-align: center;
+    height:50px;
+}
+tr:nth-child(odd)
+{
+    background: rgb(5, 97, 190);
+    padding: 4px;
+}
+
+tr:nth-child(even)
+{
+    background: rgb(108, 2, 169);
+    padding: 4px;
+}
+footer
+{
+    height: 70px;
+    width:  100%;
+    background-color: rgba(5, 97, 190);
+    border: 5px groove  rgba(4, 161, 200, 0.681); 
+}
+.equal{
+    padding: 3px;
+    max-width: 960px;
+    margin: 10px auto;
+    height: auto;
+    background: linear-gradient(45deg, rgb(5, 97, 190), rgb(9, 206, 206));
+}
+

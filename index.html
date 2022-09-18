@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<link rel="stylesheet" href="D:\Asgard2.0\WEB2022\MyProject\css\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>pochtarenko_web</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_solo">
+        <div id="logo"></div>
+        <div id="name">
+            <h1 class="text_header">Через тернии к звездам</h1>
+        </div>
+        </div>
+    </header>
+
+    <nav class="menu">
+            <ul>
+                <li><a href=#task1>Ссылки</a></li>
+                <li><a href=#table>Таблица</a></li>
+                <li><a href=#form>Форма</a></li>
+            </ul>
+    </nav>
+ 
+    <div class="equal">
+        <h2 id="task1">Ссылки:</h2>
+        <a id="comeback"></a>
+    
+    <ol> 
+        <li><a href="http://example.com">Абсолютная гиперссылкa на главную страницу сайта example.com </a></li>
+        <li><a href="https://example.com">Абсолютная на главную сайта example.com в протоколе https </a></li>
+        <li><a href="ftp://google.com/fallout/file1.txt">Ссылка на файл на сервере FTP без авторизации</a></li>
+        <li><a href="ftp://test:password@admin.ru/data/file2.txt">Ссылка на файл на сервере FTP с авторизацией</a></li>
+        <li><a href="taylor.html#lyrics" target="_blank">Ссылку на фрагмент страницы некоторого сайт</a></li>  
+        <li><a href="#“twice”">Ссылка на фрагмент текущей страницы</a></li>
+        <li><a href="https://www.onlinestore.ru?product=t-shitt&color=white" target="_blank">Ссылка с двумя параметрами в URL</a></li>
+        <li><a href="#task1" title="task">Ссылки</a></li>
+        <li><a href="#form" title="form">Форма</a></li>
+        <li><a>Ссылка без "href"</a></li>
+        <li><a href="">Ссылка с пустым "href"</a></li>
+        <li><a href="http://example.com" rel = "nofollow"> Ссылка, по которой запрещен переход поисковикам</a></li>
+        <li><a href="http://example.com" rel = "noindex">Запрещенная для индексации поисковиками</a></li>
+        <li><a href="https://youtu.be/_cjSafyjABs" target="_blank"><img src="https://catherineasquithgallery.com/uploads/posts/2021-02/1613172326_92-p-zheltii-fon-gubka-bob-108.jpg" width="500" height="350" alt="twice"></a></li>
+
+        <li><a href="index.html">Относительная ссылка</a></li>
+        <li><a href="about/about.html">Относительная ссылка на старницу в каталоге about</a></li>
+        <li><a href="../index.html">Относительная ссылка уровнем выше</a></li>
+        <li><a href="../../index.html">Относительная ссылка на 2 уровня выше</a></li>
+        <li><a href="/">Сокращенная ссылка на главную</a></li>
+        <li><a href="/srr.html">Сокращенная ссылка на внутреннюю</a></li>
+    </ol>
+
+<h1 id="table">Таблица</h1>
+		<table>
+    		<tr>
+        <th>==Ячейка 1==</th>
+        <th>==Ячейка 2==</th>
+        <th>==Ячейка 3==</th>
+			</tr>
+			<tr>
+        <td><a href="https://www.natgeotv.com/ru">natgeotv</a></td>
+        <td><a href="https://www.figma.com/files/recent?fuid=1153021823036082621">figma</a></td>
+        <td><a href="https://netology.ru/">netology</a></td>
+			</tr>
+			<tr>
+        <td colspan="2"><a href="https://www.ozon.ru/">ozone</a> </td>
+        <td rowspan="2"><a href="https://www.behance.net/galleries">behance</a></td>
+			</tr>
+			<tr>
+        <td><a href="https://dribbble.com">dribble</a></td>
+        <td><a href="https://javarush.ru/quests/lectures/questsyntaxpro.level05.lecture02">javarush</a></td>
+			</tr>
+			<tr>
+        <td><a href="https://youtube.com/">youtube</a></td>
+        <td><a href="https://mail.google.com/">gmail</a></td>
+        <td><a href="https://mail.ru/">mailru</a></td>
+			</tr>
+			<tr>
+        <td colspan="3"><a href="https://ya.ru/"> yandex </a></td>
+    </tr>
+</table>    
+<h1 id="form">Форма</h1>
+<form action="/" method="POST">
+
+    <label>
+        Имя<br>
+        <input name="field-name-1" value="Имя">
+    </label><br>
+
+    <label>
+        email:<br>
+        <input name="field-email" value="@gmail.com" type="email">
+    </label><br>
+
+    <label>
+        Дата рождения<br>
+        <input name="field-date" value="1111-11-11" type="date">
+    </label><br>
+
+    Пол:<br>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="men">
+        Мужчина</label><br>
+    <label><input type="radio" name="radio-group-1" value="female">
+        Женщина</label><br>
+    <label><input type="radio" name="radio-group-1" value="other">
+        Джедай</label><br>
+
+    Колчество конечностей:<br>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="1">
+        1</label>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="2">
+        2</label>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="3">
+        3</label>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="4">
+        4(норма)</label>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="5">
+        5(уже перебор)</label>
+    <br>
+
+    <label>
+       	Любимый цвет
+        <br>
+        <select name="field-name-4[]" multiple="multiple">
+            <option value="song1" selected="selected">Белый</option>
+            <option value="song2">Черный</option>
+            <option value="song3">Красный</option>
+            <option value="song3">Зеленый</option>
+            <option value="song3">Синий</option>
+        </select>
+    </label><br>
+
+    <label>
+        Расскажите о своей заветной мечте:
+        <br>
+        <textarea name="field-name-2" style="margin: 0px; height: 35px; width: 187px;">Жду...)</textarea>
+    </label><br>
+
+    <label><input type="checkbox" checked="checked" name="check-1">
+        Я согласен(a)</label><br>
+
+    <input type="submit" value="send">
+</form>
+</div>
+<br/>
+<footer>pochtarenko vlasislav 2022</footer>
+</body>
+</html>
