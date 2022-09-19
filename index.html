@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="header_solo">
-        <div id="logo"></div>
+        <div id="logo"> <img src="C:\Users\Владислав\Desktop\logo.jpg" width="100" height="100" </div>
         <div id="name">
             <h1 class="text_header">Через тернии к звездам</h1>
         </div>
@@ -42,8 +42,14 @@
         <li><a href="">Ссылка с пустым "href"</a></li>
         <li><a href="http://example.com" rel = "nofollow"> Ссылка, по которой запрещен переход поисковикам</a></li>
         <li><a href="http://example.com" rel = "noindex">Запрещенная для индексации поисковиками</a></li>
-        <li><a href="https://youtu.be/_cjSafyjABs" target="_blank"><img src="https://catherineasquithgallery.com/uploads/posts/2021-02/1613172326_92-p-zheltii-fon-gubka-bob-108.jpg" width="500" height="350" alt="twice"></a></li>
-
+        <li>Можно послушать на досуге
+            <br>
+                <img src = "https://catherineasquithgallery.com/uploads/posts/2021-02/1613172326_92-p-zheltii-fon-gubka-bob-108.jpg" width="500" height="350" alt="twice" usemap = "#figures" alt = "wikipedia galaxy or spotify artist">
+                <map name = "figures">
+                    <area shape = "rect" coords = "0,0,110,80" href = "https://youtu.be/_cjSafyjABs" alt = "square">
+                    <area shape = "circle" coords = "360,190,150" href = "https://music.yandex.ru/album/22378861/track/104185261" alt = "circle">
+                </map>
+        </li>
         <li><a href="index.html">Относительная ссылка</a></li>
         <li><a href="about/about.html">Относительная ссылка на старницу в каталоге about</a></li>
         <li><a href="../index.html">Относительная ссылка уровнем выше</a></li>
